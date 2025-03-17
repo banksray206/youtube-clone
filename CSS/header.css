@@ -1,0 +1,159 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    vertical-align: top;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px;
+    border-bottom-color: rgb(241, 240, 240);
+    border-bottom-style: solid;
+    z-index: 100;
+}
+
+
+.header-middle{ 
+    display: flex;
+    flex: 1;
+    vertical-align: top;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 30px;
+    
+}
+
+.header-left{
+    vertical-align: top;
+    align-items: center;
+    display: flex;
+}
+.hamburger-icon{
+    width: 30px;
+    padding-left: 20px;
+
+}
+.youtube-icon{
+    width: 100px;
+    padding-left: 20px;
+    
+}
+
+.search-bar{
+width: 0;
+height: 36px;
+flex: 1; 
+border: 2px;
+border-style: solid;
+border-color: rgb(223, 220, 220);
+margin-left: 30px;
+font-family: roboto;
+font-size: 15px;
+}
+.search-bar::placeholder{
+    font-family: roboto;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.search-button{
+    width: 60px;
+    height: 41px;
+    border: 1px;
+    border-style: solid;
+    border-color:  rgb(219, 218, 218);
+    background-color: rgb(250, 248, 248);
+
+}
+
+.search-icon{
+  width: 25px; 
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+.search-vioce-icon{
+    width: 25px;
+    border-radius: 14px;
+    padding-left:3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+.search-vioce-button{
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 22.5px;
+    border: none;
+    background-color: rgb(247, 243, 243);
+}
+
+.header-right{
+    width:200px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+    margin-left: 10px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+
+.upload-icon ,.apps-icon ,.notifications-icon,.notifications-div{
+    width: 25px;
+}
+
+.notifications-div{
+   position: relative;
+   display: flex;
+    flex-direction: row;
+    vertical-align: center;
+    align-items: center;
+   
+   
+
+}
+
+
+
+.count{
+  position: absolute;
+  right: -2px;
+  top: 7px;
+  background-color: rgb(226, 6, 6);
+  border-radius: 10px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ font-family: Roboto;
+ font-size: 9px;
+ color: white;
+ border: 1px;
+ border-style: solid;
+ border-color: white;
+}
+
+.right-div{
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+    align-items: center;
+}
+
+
+
+
+.profile-icon{
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+    
+}

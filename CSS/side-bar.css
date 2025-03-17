@@ -1,0 +1,34 @@
+.side-bar{
+    display: flex ;
+    flex-direction: column ;
+    width: 70px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+
+    
+}
+.side-bar:hover{
+ background-color: lightgrey;   
+}
+
+.home-icon,.explore-icon ,.subscriptions-icon, .originals-icon, .youtube-music-icon,.library-icon{
+    height: 30px;
+    padding-top: 30px;
+   
+
+}
+
+.words{
+    font-size: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
